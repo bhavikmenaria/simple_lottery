@@ -68,3 +68,6 @@ contract SimpleLottery {
         payable(winner).transfer(address(this).balance);
     }
 }
+
+License
+This project is licensed under the MIT License.

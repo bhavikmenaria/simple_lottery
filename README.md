@@ -1,5 +1,1 @@
-
-
-<h1 >
-  simple lottery
-</h1>
+#Simple Lottery

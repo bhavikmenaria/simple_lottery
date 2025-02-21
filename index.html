@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Lottery DApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Lottery DApp</h1>
+        <p>Join the lottery and win rewards!</p>
+
+        <button onclick="enterLottery()">Enter Lottery</button>
+        <button onclick="pickWinner()">Pick Winner</button>
+        
+        <h3>Winner: <span id="winner">No winner yet</span></h3>
+        <h3>Players Count: <span id="playerCount">0</span></h3>
+
+        <p id="status"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
